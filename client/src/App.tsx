@@ -1,12 +1,13 @@
+import React from 'react';
+import { Chat } from './components/Chat';
 
+ const App = () => {
 
-function App() {
   return (
-
-    <div>
-    
-    </div>
+    <main>
+      <Chat />
+    </main>
   );
-}
+};
 
-export default App;
+export default App
