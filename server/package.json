@@ -21,7 +21,10 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "dotenv": "^16.1.4",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "langchain": "^0.0.92",
+    "typeorm": "^0.3.16"
   }
 }
