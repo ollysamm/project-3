@@ -9,7 +9,7 @@ export const Chat = () => {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post('http://127.0.0.1:5600', { query: inputValue });
+      const { data } = await axios.post('http://127.0.0.1:8000', { query: inputValue });
       setResponse(data);
     } catch (error) {
       console.log(error);
