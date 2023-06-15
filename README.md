@@ -23,7 +23,9 @@
 
 # Frontend
 
-1. cd into client and npm run start to start React frontend.
+1. cd into client and npm install to install necessary packages from the package.json file.
+ 
+3. npm run start to start React frontend.
 
-2. User is able to end prompts
+4. User is able to end prompts
 
