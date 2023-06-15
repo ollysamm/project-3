@@ -1,14 +1,23 @@
 import os
 import requests
-import openai
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
+from langchain.llms import OpenAI
+from langchain.document_loaders import DirectoryLoader
+from langchain.document_loaders.csv_loader import CSVLoader
+from langchain.indexes import VectorstoreIndexCreator
+
 load_dotenv()
 
-app = FastAPI()
+OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+loader=CSVLoader('./Data/production_reporting_factor_copsoq.csv')
+index=VectorstoreIndexCreator().from_loaders([loader])
+
+app=FastAPI()
+
 app.add_middleware(CORSMiddleware,
                    allow_origins=["*"],
                    allow_credentials=True,
@@ -16,31 +25,17 @@ app.add_middleware(CORSMiddleware,
                    allow_headers=["*"]
                    )
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+class Item(BaseModel):
+    query:str
 
-class Prompt(BaseModel):
-    prompt: str
+@app.get('/')
+def read_root():
+    return {"Hello": "world"}
 
-def get_data_from_api():
-    response = requests.get("https://data.calgary.ca/resource/35ra-9556.json")
-    data = response.json()
-    return data
-
-@app.get("/")
-async def root():
-    data = get_data_from_api()
-    return data
-
-@app.post("/")
-async def answer(prompt: Prompt):
-    data = get_data_from_api()
-    response = openai.Completion.create(
-        engine="davinci",
-        prompt=f"{prompt.prompt} {data}",
-        temperature=0,
-        max_tokens=150,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
-    )
-    return response["choices"][0]["text"]
+@app.post('/')
+def answer_query(item:Item):
+    try:
+        response=index.query(item.query)
+        return response
+    except:
+        return {"messgage":"Some error happened"}
