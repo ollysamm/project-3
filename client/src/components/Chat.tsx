@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+interface ResponseData {
+  output: string;
+}
+
 export const Chat = () => {
   const [inputValue, setInputValue] = useState<string>('');
   const [response, setResponse] = useState<string>('');
@@ -9,20 +13,23 @@ export const Chat = () => {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post('http://127.0.0.1:8000', { query: inputValue });
-      setResponse(data);
+      const { data } = await axios.post<ResponseData>('http://localhost:5600', { query: inputValue });
+      setResponse(data.output);
     } catch (error) {
       console.log(error);
     }
   };
 
   return (
-    <div className='flex flex-col'>
-      <header>wendyai</header>
+    <div className='flex flex-col items-center justify-center'>
+
+      <header>
+        <h1>wendyai</h1>
+      </header>
       
       <section>
         <div>
-          <h2>Wendy v1 Updated 09/06/2023</h2>
+          <h4>Wendy v1 Updated 09/06/2023</h4>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
@@ -38,6 +45,7 @@ export const Chat = () => {
       <div>
         <h3>{response}</h3>
       </div>
+
     </div>
   );
 };
