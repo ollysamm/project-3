@@ -21,7 +21,7 @@ export const Chat = () => {
   };
 
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center' style={{ padding: '20px' }}>
 
       <header>
         <h1>wendyai</h1>
@@ -43,7 +43,7 @@ export const Chat = () => {
       </section>
 
       <div>
-        <h3>{response}</h3>
+        <h5>{response}</h5>
       </div>
 
     </div>
