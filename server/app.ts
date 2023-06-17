@@ -1,37 +1,43 @@
 import express from "express";
+import dotenv from 'dotenv';
+import cors from "cors";
+
 import { OpenAI } from "langchain/llms/openai";
-import { SqlDatabase } from "langchain/sql_db";
-import { createSqlAgent, SqlToolkit } from "langchain/agents";
-import { DataSource } from "typeorm";
+import { APIChain } from "langchain/chains";
+
+import { NBA_TEAMS_DOCS } from "./api_docs/NbaTeamsDocs"
+
+dotenv.config();
+
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 
 const app = express();
 const port = 5600;
 
-app.get("/api/query", async (req, res) => {
-  const datasource = new DataSource({
-    type: "mysql",
-    host: "your_host",
-    port: 8600,
-    username: "your_username",
-    password: "your_password",
-    database: "your_database",
-  });
+app.use(cors());
 
-  const db = await SqlDatabase.fromDataSourceParams({
-    appDataSource: datasource,
-  });
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-  const model = new OpenAI({ temperature: 0 });
-  const toolkit = new SqlToolkit(db, model);
-  const executor = createSqlAgent(model, toolkit);
+app.get('/', (req, res) => {
+  res.send('Hello from Express server')
+})
 
-  const input = req.query.input as string;
-  const result = await executor.call({ input });
+app.post('/', async (req, res) => {
+  const { query } = req.body; 
 
-  await datasource.destroy();
+  const model = new OpenAI({openAIApiKey: OPENAI_API_KEY, temperature: 0});
+  
+  const chain = APIChain.fromLLMAndAPIDocs(model, NBA_TEAMS_DOCS);
+  
+  const response = await chain.call({ question: query });
 
-  res.json(result.output);
+  console.log(response)
+  
+  res.send(response);
+
 });
+
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
