@@ -26,7 +26,7 @@ app.get('/test', (req, res) => {
 app.post('/', async (req, res) => {
   const { query } = req.body; 
 
-  const model = new OpenAI({openAIApiKey: OPENAI_API_KEY, temperature: 0});
+  const model = new OpenAI({openAIApiKey: OPENAI_API_KEY, modelName: "text-davinci-003", temperature: 0});
   const chain = APIChain.fromLLMAndAPIDocs(model, NBA_TEAMS_DOCS);
   
   const response = await chain.call({ question: query });
