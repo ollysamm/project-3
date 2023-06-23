@@ -13,7 +13,7 @@ from langchain.indexes import VectorstoreIndexCreator
 load_dotenv()
 
 OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
-loader=CSVLoader('./Data/production_reporting_factor_copsoq.csv')
+loader=CSVLoader('./Data/employee.csv')
 index=VectorstoreIndexCreator().from_loaders([loader])
 
 app=FastAPI()
