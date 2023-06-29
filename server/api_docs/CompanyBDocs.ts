@@ -1,81 +1,35 @@
-export const COMPANY_B_DOCS = `BASE URL: https://us-west-2.aws.data.mongodb-api.com/app/data-fckbb/endpoint/data/v1/action
+export const COMPANY_B_DOCS = `BASE URL: https://us-east-1.aws.data.mongodb-api.com/app/api_example-ygdlt/endpoint/employee
 
 API Documentation
-The API endpoint /find provides access to the entire collection of data objects associated with Company B. It responds with a JSON array containing multiple objects, each representing an individual's information. The endpoint requires the following parameters:
+The API endpoint /employee provides access to the data objects associated with the employee collection. It responds with a JSON object containing various attributes related to an individual's information. The endpoint does not require any additional parameters.
 
-Endpoint: /find
+Endpoint: /employee
 
-HTTP Method: POST
-
-Request Headers:
-- Content-Type: application/json
-  - Specifies the content type of the request payload.
-- Access-Control-Request-Headers: *
-  - Allows all access control request headers.
-- api-key: process.env.MONGO_DB_KEY
-  - Your API key for authentication purposes. The value is retrieved from the environment variable named MONGO_DB_KEY.
-
-Request Body:
-The request body should be a JSON object with the following parameters:
-{
-    "collection": "employee",
-    "database": "company_b",
-    "dataSource": "NarioCluster"
-}
+HTTP Method: GET
 
 Response Format: JSON
 
 Example Request:
-POST /find
-Headers:
-- Content-Type: application/json
-- Access-Control-Request-Headers: *
-- api-key: process.env.MONGO_DB_KEY
-Body:
-{
-    "collection": "employee",
-    "database": "company_b",
-    "dataSource": "NarioCluster"
-}
+GET /employee
 
 Example Response:
-[
-  {
-    "_id": 1,
-    "organization": "company_b",
-    "employee_id": "company_b_user_10",
-    "department": "Contact Center",
-    "employment_type": "Full-time",
-    "ethnicity": "Latin American",
-    "gender": "Men",
-    "language": "English",
-    "location": "LOC-SCU-02",
-    "location_type": "Mostly remotely",
-    "shift": "Daytime hours (9 a.m. to 5 p.m. or similar)",
-    "tenure": "Less than 1 year",
-    "age_group": "30 - 39"
-  },
-  {
-    "_id": 2,
-    "organization": "company_b",
-    "employee_id": "company_b_user_11",
-    "department": "Sales",
-    "employment_type": "Part-time",
-    "ethnicity": "Asian",
-    "gender": "Women",
-    "language": "Spanish",
-    "location": "LOC-SFO-01",
-    "location_type": "Mostly on-site",
-    "shift": "Evening hours (5 p.m. to 11 p.m. or similar)",
-    "tenure": "1-3 years",
-    "age_group": "20 - 29"
-  },
-  ...
-  // Remaining objects in the collection
-]
+{
+  "_id": 1,
+  "organization": "company_b",
+  "employee_id": "company_b_user_10",
+  "department": "Contact Center",
+  "employment_type": "Full-time",
+  "ethnicity": "Latin American",
+  "gender": "Men",
+  "language": "English",
+  "location": "LOC-SCU-02",
+  "location_type": "Mostly remotely",
+  "shift": "Daytime hours (9 a.m. to 5 p.m. or similar)",
+  "tenure": "Less than 1 year",
+  "age_group": "30 - 39"
+}
 
 Response Description:
-Each object in the JSON array represents an individual's information with the following attributes:
 - _id: The unique identifier for the data object.
 - organization: The organization or company associated with the data.
 - employee_id: The employee ID associated with the data.

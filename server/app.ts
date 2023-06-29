@@ -5,9 +5,9 @@ import cors from "cors";
 import { OpenAI } from "langchain/llms/openai";
 import { APIChain } from "langchain/chains";
 
-import { NBA_TEAMS_DOCS } from "./api_docs/NbaTeamsDocs"
+// import { NBA_TEAMS_DOCS } from "./api_docs/NbaTeamsDocs"
 
-// import { COMPANY_B_DOCS } from "./api_docs/CompanyBDocs"
+import { COMPANY_B_DOCS } from "./api_docs/CompanyBDocs"
 
 dotenv.config();
 
@@ -29,7 +29,7 @@ app.post('/', async (req, res) => {
   const { query } = req.body; 
 
   const model = new OpenAI({openAIApiKey: OPENAI_API_KEY, temperature: 0, verbose: true});
-  const chain = APIChain.fromLLMAndAPIDocs(model, NBA_TEAMS_DOCS);
+  const chain = APIChain.fromLLMAndAPIDocs(model, COMPANY_B_DOCS);
   
   const response = await chain.call({ question: query });
   res.send(response);
