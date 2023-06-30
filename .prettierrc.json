@@ -1,0 +1,27 @@
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+	"jsxSingleQuote": false,
+	"printWidth": 80,
+	"trailingComma": "es5",
+	"arrowParens": "avoid",
+	"proseWrap": "preserve",
+    "semi": true,
+    "parser": "typescript",
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "singleQuote": false
+            }
+        },
+        {
+            "files": ".*rc",
+            "options": {
+                "singleQuote": false,
+                "parser": "json"
+            }
+        }
+    ]
+}
