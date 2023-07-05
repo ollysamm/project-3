@@ -3,11 +3,13 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url("wendy_gradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 996px) {
@@ -19,5 +21,16 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+h1{
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-shadow: 5px 5px 50px darkmagenta;
+}
+
+img {
+  max-height: 25vh;
 }
