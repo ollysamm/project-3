@@ -28,7 +28,7 @@ app.add_middleware(CORSMiddleware,
 class Item(BaseModel):
     query:str
 
-@app.get('/')
+@app.get('/test')
 def read_root():
     return {"Hello": "world"}
 
@@ -38,4 +38,4 @@ def answer_query(item:Item):
         response=index.query(item.query)
         return response
     except:
-        return {"messgage":"Some error happened"}
+        return {"messgage":"Server Error"}
