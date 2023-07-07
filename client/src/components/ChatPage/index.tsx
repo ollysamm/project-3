@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-// interface ResponseData {
-//   output: string;
-// }
 
-export const Chat = () => {
+export function ChatPage() {
   const [inputValue, setInputValue] = useState<string>('');
   const [response, setResponse] = useState<string>('');
 
@@ -21,7 +18,7 @@ export const Chat = () => {
   };
 
   return (
-    <div className='flex flex-col items-center justify-center' style={{ padding: '20px' }}>
+    <div className='bg-hol-blue'>
 
       <header>
         <h1>wendyai</h1>

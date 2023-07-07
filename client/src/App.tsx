@@ -1,11 +1,13 @@
 import React from 'react';
-import { Chat } from './components/Chat';
+import './index.css'
+import { AppContainer } from './containers/AppContainer';
 
- const App = () => {
+
+ function App() {
 
   return (
     <main>
-      <Chat />
+      <AppContainer />
     </main>
   );
 };
