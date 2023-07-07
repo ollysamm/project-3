@@ -5,7 +5,7 @@ import { SideNavbar } from "../../components/SideNavbar";
 
 export function SideMenu() {
   return (
-    <div className="w-64 bg-hol-blue">
+    <div className="w-64">
       <Logo />
       <SideNavbar />
   </div>
