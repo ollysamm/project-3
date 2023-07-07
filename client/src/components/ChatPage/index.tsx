@@ -18,7 +18,7 @@ export function ChatPage() {
   };
 
   return (
-    <div className='bg-hol-blue'>
+    <div className=''>
       
       <section>
         <div>
