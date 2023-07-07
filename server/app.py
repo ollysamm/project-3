@@ -21,7 +21,7 @@ OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
 loader = DirectoryLoader('./source_data', glob="./*.csv", loader_cls=CSVLoader)
 data = loader.load()
 
-agent = create_csv_agent(OpenAI(temperature=0), './source_data/Factors_Heatmap.csv', verbose=True)
+agent = create_csv_agent(OpenAI(temperature=0), ['./source_data/Factors_Heatmap.csv', './source_data/Risk_ Absenteeism_ Heatmap.csv'], verbose=True)
 
 
 # loader=CSVLoader('./Data/employee.csv')
