@@ -19,10 +19,6 @@ export function ChatPage() {
 
   return (
     <div className='bg-hol-blue'>
-
-      <header>
-        <h1>wendyai</h1>
-      </header>
       
       <section>
         <div>
