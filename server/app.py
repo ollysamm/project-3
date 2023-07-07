@@ -6,15 +6,26 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 
 from langchain.llms import OpenAI
+from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.chains import RetrievalQA
 from langchain.document_loaders import DirectoryLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.indexes import VectorstoreIndexCreator
+from langchain.agents import create_csv_agent
 
 load_dotenv()
 
 OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
-loader=CSVLoader('./Data/employee.csv')
-index=VectorstoreIndexCreator().from_loaders([loader])
+
+loader = DirectoryLoader('./source_data', glob="./*.csv", loader_cls=CSVLoader)
+data = loader.load()
+
+agent = create_csv_agent(OpenAI(temperature=0), './source_data/Leading_Indicators.csv', verbose=True)
+
+
+# loader=CSVLoader('./Data/employee.csv')
+# index=VectorstoreIndexCreator().from_loaders([loader])
 
 app=FastAPI()
 
@@ -35,7 +46,7 @@ def read_root():
 @app.post('/')
 def answer_query(item:Item):
     try:
-        response=index.query(item.query)
+        response=agent.run(item.query)
         return response
     except:
         return {"messgage":"Server Error"}

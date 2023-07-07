@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-interface ResponseData {
-  output: string;
-}
+// interface ResponseData {
+//   output: string;
+// }
 
 export const Chat = () => {
   const [inputValue, setInputValue] = useState<string>('');
@@ -13,8 +13,8 @@ export const Chat = () => {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post<ResponseData>('http://localhost:5600', { query: inputValue });
-      setResponse(data.output);
+      const { data } = await axios.post('http://localhost:8000', { query: inputValue });
+      setResponse(data);
     } catch (error) {
       console.log(error);
     }
