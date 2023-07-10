@@ -39,7 +39,7 @@ export const Chat = () => {
           >
             <input
               type="text"
-              className="bg-transparent h-16 w-full text-[#422929] font-medium outline-none text-[28px] font-poppins"
+              className="bg-transparent  h-14  3xl:h-16 w-full text-[#422929] font-medium outline-none text-[18px] xl:text-[20px] 3xl:text-[28px] font-poppins"
               placeholder="Type your Message..."
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
