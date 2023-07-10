@@ -1,32 +1,32 @@
 import os
-import requests
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
 from langchain.llms import OpenAI
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chains import RetrievalQA
-from langchain.document_loaders import DirectoryLoader
-from langchain.document_loaders.csv_loader import CSVLoader
-from langchain.indexes import VectorstoreIndexCreator
 from langchain.agents import create_csv_agent
 
 load_dotenv()
 
 OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
 
-loader = DirectoryLoader('./source_data', glob="./*.csv", loader_cls=CSVLoader)
-data = loader.load()
+# Get a list of all the CSV files in the source_data folder
+source_data_folder = "source_data"
+csv_files = [f"./{source_data_folder}/{f}" for f in os.listdir(source_data_folder) if f.endswith(".csv")]
 
-agent = create_csv_agent(OpenAI(temperature=0), ['./source_data/Factors_Heatmap.csv', './source_data/Risk_ Absenteeism_ Heatmap.csv'], verbose=True)
+# Initialize the CSV agent with the list of CSV files
+agent = create_csv_agent(
+    OpenAI(temperature=0),
+    csv_files,
+    verbose=True,
+)
 
+# Define the request model
+class PromptQuery(BaseModel):
+    prompt: str
 
-# loader=CSVLoader('./Data/employee.csv')
-# index=VectorstoreIndexCreator().from_loaders([loader])
-
+# Create the FastAPI app
 app=FastAPI()
 
 app.add_middleware(CORSMiddleware,
@@ -36,17 +36,17 @@ app.add_middleware(CORSMiddleware,
                    allow_headers=["*"]
                    )
 
-class Item(BaseModel):
-    query:str
-
+# Define Server routes
 @app.get('/test')
 def read_root():
     return {"Hello": "world"}
 
-@app.post('/')
-def answer_query(item:Item):
+@app.post('/ask-wendy')
+def ask_wendy(query: PromptQuery):
+    prompt = query.prompt
     try:
-        response=agent.run(item.query)
+        response=agent.run(prompt)
         return response
-    except:
-        return {"messgage":"Server Error"}
+    except Exception as e:
+        error_message = "I am unable to respond to you question at the moment, please try again later."
+        return error_message

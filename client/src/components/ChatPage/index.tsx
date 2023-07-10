@@ -10,7 +10,7 @@ export function ChatPage() {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post('http://localhost:8000', { query: inputValue });
+      const { data } = await axios.post('http://localhost:8000/ask-wendy', { prompt: inputValue });
       setResponse(data);
     } catch (error) {
       console.log(error);
