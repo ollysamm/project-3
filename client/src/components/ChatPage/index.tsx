@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-interface ResponseData {
-  output: string;
-}
 
-export const Chat = () => {
+export function ChatPage() {
   const [inputValue, setInputValue] = useState<string>('');
   const [response, setResponse] = useState<string>('');
 
@@ -13,19 +10,15 @@ export const Chat = () => {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post<ResponseData>('http://localhost:5600', { query: inputValue });
-      setResponse(data.output);
+      const { data } = await axios.post('http://localhost:8000/ask-wendy', { prompt: inputValue });
+      setResponse(data);
     } catch (error) {
       console.log(error);
     }
   };
 
   return (
-    <div className='flex flex-col items-center justify-center' style={{ padding: '20px' }}>
-
-      <header>
-        <h1>wendyai</h1>
-      </header>
+    <div className=''>
       
       <section>
         <div>
