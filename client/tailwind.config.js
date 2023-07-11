@@ -7,6 +7,7 @@ module.exports = {
         comfortaa: ["Comfortaa", "cursive"],
         poppins: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        sofiapro: ["sofiapro", "sans-serif"],
       },
 
       colors: {
