@@ -5,7 +5,12 @@ const ChatList = () => {
   return (
     <>
       <UserChat />
-      <AiChat />
+      <AiChat /> <UserChat />
+      <AiChat /> <AiChat /> <UserChat />
+      <AiChat /> <UserChat />
+      <AiChat /> <AiChat /> <UserChat />
+      <AiChat /> <UserChat />
+      <AiChat /> <AiChat />
     </>
   );
 };
