@@ -1,7 +1,7 @@
 import React from "react";
 
-import { SideMenu } from "../SideMenu";
-import { MainContent } from "../MainContent";
+import { SideMenu } from "./SideMenu";
+import { MainContent } from "./MainContent";
 
 export function AppContainer() {
   return (
