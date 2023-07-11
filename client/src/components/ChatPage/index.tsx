@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Icon } from '@iconify/react';
 
 
 export function ChatPage() {
@@ -30,7 +31,7 @@ export function ChatPage() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-            <button type="submit">Submit</button>
+            <button type="submit">Submit <Icon icon="majesticons:send" /></button>
           </form>
         </div>
       </section>
