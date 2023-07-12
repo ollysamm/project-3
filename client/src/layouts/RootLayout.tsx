@@ -9,7 +9,7 @@ function RootLayout({ children }: RootLayoutProps) {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="flex-1 py-8 bg-green-400">{children}</main>
+      <main className="flex-1 py-8 bg-hol-grey-light">{children}</main>
     </div>
   );
 }
