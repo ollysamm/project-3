@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Icon } from '@iconify/react';
 
 
-export function ChatPage() {
+function Chat() {
   const [inputValue, setInputValue] = useState<string>('');
   const [response, setResponse] = useState<string>('');
 
@@ -19,27 +19,29 @@ export function ChatPage() {
   };
 
   return (
-    <div className=''>
+    <div className="flex flex-col h-full justify-between m-4 border border-black">
       
-      <section>
-        <div>
-          <h4>Wendy v1 Updated 09/06/2023</h4>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              placeholder="Ask Wendy..."
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-            />
-            <button type="submit">Submit <Icon icon="majesticons:send" /></button>
-          </form>
-        </div>
-      </section>
-
       <div>
-        <h5>{response}</h5>
+        <h4>Wendy v1 Updated 09/06/2023</h4>
       </div>
 
+      <div>
+
+        <div>
+          <h5>{response}</h5>
+        </div>
+
+        <div>
+          <form onSubmit={handleSubmit}>
+            <input type="text" placeholder="Ask Wendy..." value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+            <button type="submit"><Icon icon="majesticons:send" /></button>
+          </form>
+        </div>
+
+      </div>
+      
     </div>
   );
 };
+
+export default Chat;
