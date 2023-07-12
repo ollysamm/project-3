@@ -10,15 +10,15 @@ export function ChatHistory() {
       </div>
       <div className="mb-4">
         <ul>
-          <li className="flex items-center mb-2">
+          <li className="flex items-center p-2 mb-2">
             <BsChatLeft size={20} />
             <span className="ml-2 truncate">Department at most risk of burnout</span>
           </li>
-          <li className="flex items-center mb-2">
+          <li className="flex items-center p-2 mb-2">
             <BsChatLeft size={20} />
             <span className="ml-2 truncate">Level of Understanding of job roles</span>
           </li>
-          <li className="flex items-center mb-2">
+          <li className="flex items-center p-2 mb-2">
             <BsChatLeft size={20} />
             <span className="ml-2 truncate">Risk of Absenteeism in Edmonton office</span>
           </li>
