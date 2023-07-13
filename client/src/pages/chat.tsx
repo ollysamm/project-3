@@ -10,15 +10,16 @@ interface ChatMessage {
 function Chat() {
   const [userMessage, setUserMessage] = useState('');
   const [chats, setChats] = useState<ChatMessage[]>([]);
-  const [isThinking, setIsThinking] = useState(true);
-  const [response, setResponse] = useState<AxiosResponse<any, any> | null>(null);
+  const [isThinking, setIsThinking] = useState(false);
+  const [wendyResponse, setWendyResponse] = useState<AxiosResponse<any, any> | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsThinking(true);
 
     try {
       const response = await axios.post('http://localhost:8000/ask-wendy', { prompt: userMessage });
-      setResponse(response);
+      setWendyResponse(response);
 
       const newChatMessage: ChatMessage = {
         userMessage,
@@ -29,6 +30,8 @@ function Chat() {
       setUserMessage(''); // Clear the input field after submission
     } catch (error) {
       console.log(error);
+    } finally {
+      setIsThinking(false);
     }
   };
 
@@ -51,7 +54,9 @@ function Chat() {
 
         {isThinking ? (
           <div>
-            <p><i>Thinking...</i></p>
+            <p className="animate-pulse">
+              <i>Thinking...</i>
+            </p>
           </div>
         ) : (
           ""
