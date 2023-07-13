@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios, { AxiosResponse } from 'axios';
-import { Icon } from '@iconify/react';
+import { BsSendFill } from "react-icons/bs";
 
 interface ChatMessage {
   userMessage: string;
@@ -10,7 +10,7 @@ interface ChatMessage {
 function Chat() {
   const [userMessage, setUserMessage] = useState('');
   const [chats, setChats] = useState<ChatMessage[]>([]);
-  const [isThinking, setIsThinking] = useState(false);
+  const [isThinking, setIsThinking] = useState(true);
   const [response, setResponse] = useState<AxiosResponse<any, any> | null>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -33,8 +33,8 @@ function Chat() {
   };
 
   return (
-    <div className="flex flex-col h-full justify-between m-4 border border-black">
-      <div>
+    <div className="flex flex-col h-full justify-between mr-24 ml-24 border border-black">
+      <div className="flex items-center justify-center">
         <h4>Wendy v1 Updated 09/06/2023</h4>
       </div>
 
@@ -42,18 +42,29 @@ function Chat() {
         <div>
           {chats.map((chat, index) => (
             <div key={index}>
-              <h5>{chat.response}</h5>
               <h5>{chat.userMessage}</h5>
+              <h5>{chat.response}</h5>
             </div>
           ))}
         </div>
 
-        <div>
-          <form onSubmit={handleSubmit}>
+
+        {isThinking ? (
+          <div>
+            <p><i>Thinking...</i></p>
+          </div>
+        ) : (
+          ""
+        )}
+        
+
+        <div className="flex items-center justify-center">
+          <form onSubmit={handleSubmit} >
             <input type="text" placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} />
-            <button type="submit"><Icon icon="majesticons:send" /></button>
+            <button type="submit" ><BsSendFill /></button>
           </form>
-        </div>
+      </div>
+
       </div>
     </div>
   );
