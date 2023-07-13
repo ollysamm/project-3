@@ -6,48 +6,89 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #608276;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #403b8f;
+  --ifm-color-primary-dark: #3a3581;
+  --ifm-color-primary-darker: #36327a;
+  --ifm-color-primary-darkest: #2d2964;
+  --ifm-color-primary-light: #46419d;
+  --ifm-color-primary-lighter: #4a44a4;
+  --ifm-color-primary-lightest: #5650b7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #8dc8e8;
+  --ifm-color-primary-dark: #6eb9e2;
+  --ifm-color-primary-darker: #5eb2df;
+  --ifm-color-primary-darkest: #309bd5;
+  --ifm-color-primary-light: #acd7ee;
+  --ifm-color-primary-lighter: #bcdef1;
+  --ifm-color-primary-lightest: #eaf5fb;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-@font-face {
-	font-family: 'SofiaPro-Light';
-	src: local('MyFont'), url(./fonts/SofiaProLight/font.woff) format('woff');
-	/* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-
-@font-face {
-	font-family: 'SofiaPro-Regular';
-	src: local('MyFont'), url(./fonts/SofiaProRegular/font.woff) format('woff');
-	/* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-
-@font-face {
-	font-family: 'SofiaPro-Bold';
-	src: local('MyFont'), url(./fonts/SofiaProBold/font.woff) format('woff');
-	/* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-}
-
 @import url('https://use.typekit.net/ymk8vco.css');
+
+a {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+b {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+button {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer__title {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer.bottom {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+li {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+ul {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
