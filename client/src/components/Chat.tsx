@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Sidebar from "./Sidebar";
 
 interface ResponseData {
   output: string;
@@ -24,36 +23,33 @@ export const Chat = () => {
   };
 
   return (
-    <>
-      <Sidebar />
-      {/* <div
-        className="flex flex-col items-center justify-center"
-        style={{ padding: "20px" }}
-      >
-        <header>
-          <h1>wendyai</h1>
-        </header>
+    <div
+      className="flex flex-col items-center justify-center"
+      style={{ padding: "20px" }}
+    >
+      <header>
+        <h1>wendyai</h1>
+      </header>
 
-        <section>
-          <div>
-            <p>Text</p>
-            <h4>Wendy v1 Updated 09/06/2023</h4>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                placeholder="Ask Wendy..."
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-              />
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-        </section>
-
+      <section>
         <div>
-          <h5>{response}</h5>
+          <p>Text</p>
+          <h4>Wendy v1 Updated 09/06/2023</h4>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="Ask Wendy..."
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+            />
+            <button type="submit">Submit</button>
+          </form>
         </div>
-      </div> */}
-    </>
+      </section>
+
+      <div>
+        <h5>{response}</h5>
+      </div>
+    </div>
   );
 };
