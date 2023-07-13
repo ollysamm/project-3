@@ -8,20 +8,11 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
-
       colors: {
         primary: "#180C49",
         secondary: "#ADCEC2",
         lightpink: "#E6D0EC",
-        lightblue: "#463d6d",
-        gray: "#747476",
-        whitelight: "#fcfcfc",
-        blue: "#5703AB",
-        graywhite: "#F1E7F3",
-        brown: "#422929",
-        lightblack: "#1D2B3C",
       },
-
       screens: {
         sm: "640px",
         // => @media (min-width: 640px) { ... }

@@ -3,21 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.scrollbar-remove::-webkit-scrollbar {
-  width: 0px;
-}
-
-/* Track */
-.scrollbar-remove::-webkit-scrollbar-track {
-  background: #f1f1f100;
-}
-
-/* Handle */
-.scrollbar-remove::-webkit-scrollbar-thumb {
-  background: #88888800;
-}
-
-/* Handle on hover */
-.scrollbar-remove::-webkit-scrollbar-thumb:hover {
-  background: #55555500;
-}

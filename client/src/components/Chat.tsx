@@ -30,22 +30,16 @@ export const Chat = () => {
         <Sidebar />
 
         <div className="bg-lightpink w-full flex flex-col justify-between">
-          <div className="pt-4">
-            <div
-              className="  xl:p-8 p-5   overflow   overflow-scroll
-           max-h-[calc(100vh-100px)]  scrollbar-remove  relative   "
-            >
-              <div className="w-full h-6 absolute  top-0 left-0 bg-lightpink  "></div>
-              <ChatList />
-            </div>
+          <div className="h-full grow p-8">
+            <ChatList />
           </div>
           <form
             onSubmit={handleSubmit}
-            className="mb-4 w-[80%] mx-auto bg-graywhite flex items-center justify-between px-8"
+            className="my-4 w-[80%] mx-auto bg-[#F1E7F3] flex items-center justify-between px-8"
           >
             <input
               type="text"
-              className="bg-transparent  h-14  3xl:h-16 w-full text-brown font-medium outline-none text-[18px] xl:text-[20px] 3xl:text-[28px] font-poppins"
+              className="bg-transparent  h-14  3xl:h-16 w-full text-[#422929] font-medium outline-none text-[18px] xl:text-[20px] 3xl:text-[28px] font-poppins"
               placeholder="Type your Message..."
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
@@ -66,7 +60,6 @@ export const Chat = () => {
             </button>
           </form>
         </div>
-        <div className=" 2xl:w-[84px] lg:w-[40px]   bg-primary"></div>
       </div>
       {/* <div
         className="flex flex-col items-center justify-center"
