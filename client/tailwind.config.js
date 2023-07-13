@@ -11,7 +11,6 @@ module.exports = {
       colors: {
         primary: "#180C49",
         secondary: "#ADCEC2",
-        lightpink: "#E6D0EC",
       },
       screens: {
         sm: "640px",
