@@ -6,10 +6,10 @@
  .heroBanner {
   padding: 4rem 0;
   position: relative;
-  overflow: hidden;
   background-image: url("wendy_gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 
 @media screen and (max-width: 996px) {
