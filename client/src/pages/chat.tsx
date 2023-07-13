@@ -26,7 +26,6 @@ function Chat() {
       </div>
 
       <div>
-
         <div>
           <h5>{response}</h5>
         </div>
@@ -37,7 +36,6 @@ function Chat() {
             <button type="submit"><Icon icon="majesticons:send" /></button>
           </form>
         </div>
-
       </div>
       
     </div>

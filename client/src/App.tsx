@@ -5,19 +5,17 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './pages/login';
 import Chat from './pages/chat';
 
-
-
-
- function App() {
-
+function App() {
   return (
     <Router>
-      <RootLayout>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/chat" element={<Chat />} />
-        </Routes>
-      </RootLayout>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/chat" element={
+          <RootLayout>
+            <Chat />
+          </RootLayout>
+        } />
+      </Routes>
     </Router>
   );
 };
