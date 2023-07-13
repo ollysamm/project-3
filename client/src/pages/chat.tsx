@@ -61,14 +61,13 @@ function Chat() {
         ) : (
           ""
         )}
-        
 
         <div className="flex items-center justify-center">
           <form onSubmit={handleSubmit} >
             <input type="text" placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} />
             <button type="submit" ><BsSendFill /></button>
           </form>
-      </div>
+        </div>
 
       </div>
     </div>
