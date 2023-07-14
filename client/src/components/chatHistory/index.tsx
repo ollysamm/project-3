@@ -1,3 +1,4 @@
+import React from "react";
 import { BsChatLeft} from "react-icons/bs";
 import { RiDeleteBinLine } from "react-icons/ri";
 

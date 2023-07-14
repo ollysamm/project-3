@@ -1,7 +1,12 @@
-
+import React from "react";
+import { useAuth0 } from "@auth0/auth0-react";
 import { BiUserCircle } from "react-icons/bi";
 
 export function LoggedInUser() {
+  const { user, isAuthenticated } = useAuth0();
+
+  console.log(`Authenticated: ${isAuthenticated}`)
+
   return (
     <div className="flex items-center mb-6">
       <BiUserCircle size={40} />
