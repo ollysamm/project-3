@@ -1,0 +1,9 @@
+fastapi
+fastapi-utils
+uvicorn
+python-dotenv
+pydantic
+openai
+langchain
+pandas
+tabulate

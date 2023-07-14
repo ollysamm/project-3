@@ -1,0 +1,501 @@
+employeeId,department,employmentType,ethnicity,gender,language,location,locationType,shift,tenure,ageGroup
+10,Contact Center,Full-time,Latin American,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+244,Retail,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+82,Commercial Banking,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+199,Insurance,Full-time,Latin American,Men,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+451,Marketing,Full-time,Black,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+190,People and Culture,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+140,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-06,Mostly remotely,Irregular schedule,3 to 5 years,30 - 39
+355,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+264,Mortgage Development,Full-time,Latin American,Preferred not to answer,French,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+261,Mortgage Development,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+437,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+102,Marketing,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+146,Accounting,Full-time,Prefer not to answer,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,50 - 59
+139,Commercial Banking,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+196,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+459,Retail,Full-time,Caucasian,Women,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),10 years and more,20 or younger
+429,Mortgage Development,Full-time,Asian,Men,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+487,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+230,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+333,Retail,Part-time,Latin American,Women,Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+131,Marketing,Full-time,Asian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+253,People and Culture,Full-time,Caucasian,Women,Other,LOC-SCU-04,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+331,Insurance,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+14,Mortgage Development,Full-time,Latin American,Preferred not to answer,French,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,Less than 1 year,40 - 49
+359,People and Culture,Full-time,Other,Preferred not to answer,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+329,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+4,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+156,Retail,Full-time,Black,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+306,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,1 to 3 years,40 - 49
+404,Marketing,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+343,Commercial Banking,Full-time,Prefer not to answer,Preferred not to answer,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+78,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+107,Product and Pricing,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+320,Accounting,Full-time,Asian,Women,English,LOC-SCU-05,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+123,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-03,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+222,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+260,Contact Center,Full-time,Latin American,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+163,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-07,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+153,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Irregular schedule,Less than 1 year,30 - 39
+208,Contact Center,Casual,Middle Eastern,Women,English,LOC-SCU-02,Only remotely,Irregular schedule,1 to 3 years,20 or younger
+236,Contact Center,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+11,Mortgage Development,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+95,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Irregular schedule,1 to 3 years,60 or older
+162,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+143,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,40 - 49
+209,Retail,Full-time,Caucasian,Women,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),10 years and more,20 or younger
+402,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+100,Retail,Full-time,Latin American,Women,Other,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+334,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+9,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+497,Contact Center,Full-time,Asian,Preferred not to answer,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+198,Retail,Full-time,Caucasian,Women,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+201,Marketing,Full-time,Black,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+76,Product and Pricing,Full-time,Middle Eastern,Men,Other,LOC-SCU-06,Mostly remotely,Irregular schedule,3 to 5 years,30 - 39
+339,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+366,Commercial Banking,Full-time,Middle Eastern,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+346,Insurance,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+155,Insurance,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+419,People and Culture,Full-time,Middle Eastern,Women,English,LOC-SCU-07,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+476,Accounting,Full-time,Other,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+444,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+439,Insurance,Full-time,Asian,Women,English,LOC-SCU-05,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+294,Retail,Full-time,Aboriginal,Women,French,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+229,Mortgage Development,Full-time,Middle Eastern,Women,English,LOC-SCU-07,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+238,Accounting,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+242,Mortgage Development,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+384,Insurance,Full-time,Aboriginal,Preferred not to answer,Other,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+300,Commercial Banking,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+74,Marketing,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+19,Mortgage Development,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+243,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Only remotely,Irregular schedule,1 to 3 years,30 - 39
+44,Retail,Full-time,Aboriginal,Women,French,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+255,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+322,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+469,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Only remotely,Irregular schedule,1 to 3 years,50 - 59
+158,Insurance,Full-time,Latin American,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+403,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+385,Insurance,Full-time,Caucasian,Preferred not to answer,French,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+290,Product and Pricing,Full-time,Asian,Men,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+309,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-07,Equally on-site and remotely,Irregular schedule,3 to 5 years,40 - 49
+150,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+341,Contact Center,Full-time,Aboriginal,Men,French,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+295,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+496,Retail,Full-time,Middle Eastern,Men,Other,LOC-SCU-01,Only on-site,Irregular schedule,1 to 3 years,30 - 39
+445,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+185,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+246,Retail,Full-time,Middle Eastern,Men,Other,LOC-SCU-01,Only on-site,Irregular schedule,1 to 3 years,30 - 39
+178,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-07,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+133,Mortgage Development,Full-time,Caucasian,Men,French,LOC-SCU-01,Only on-site,Irregular schedule,3 to 5 years,40 - 49
+194,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+207,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+353,People and Culture,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+30,Accounting,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+141,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Irregular schedule,5 to 10 years,40 - 49
+28,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-05,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,60 or older
+390,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+232,People and Culture,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+186,Insurance,Full-time,Caucasian,Women,French,LOC-SCU-03,Only remotely,Irregular schedule,1 to 3 years,30 - 39
+389,Commercial Banking,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+279,Commercial Banking,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+160,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Only remotely,Irregular schedule,5 to 10 years,30 - 39
+283,Retail,Full-time,Middle Eastern,Men,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+332,Commercial Banking,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+488,Accounting,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+59,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-07,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+396,Accounting,Full-time,Prefer not to answer,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,50 - 59
+68,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-03,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+280,Accounting,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+205,Contact Center,Part-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+321,Retail,Full-time,Asian,Preferred not to answer,French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+372,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+86,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+13,Insurance,Part-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,50 - 59
+441,Commercial Banking,Full-time,Asian,Men,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+191,Commercial Banking,Full-time,Asian,Men,English,LOC-SCU-02,Only on-site,Irregular schedule,Less than 1 year,50 - 59
+362,Retail,Full-time,Caucasian,Women,French,LOC-SCU-02,Only on-site,Irregular schedule,3 to 5 years,21 - 29
+490,Commercial Banking,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+88,Marketing,Full-time,Latin American,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+181,Insurance,Full-time,Aboriginal,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+299,Contact Center,Full-time,Other,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+6,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+407,Insurance,Full-time,Asian,Preferred not to answer,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+81,Insurance,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+449,Insurance,Full-time,Latin American,Men,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+367,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+195,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-06,Only on-site,Irregular schedule,Less than 1 year,30 - 39
+18,Insurance,Full-time,Aboriginal,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+383,Mortgage Development,Full-time,Caucasian,Men,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+124,Retail,Part-time,Asian,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+132,Insurance,Casual,Caucasian,Women,French,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,1 to 3 years,40 - 49
+500,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Only on-site,Irregular schedule,1 to 3 years,20 or younger
+365,People and Culture,Full-time,Middle Eastern,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+276,Retail,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,5 to 10 years,21 - 29
+215,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+225,Mortgage Development,Full-time,Middle Eastern,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+400,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+42,Contact Center,Part-time,Latin American,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+378,Marketing,Full-time,Middle Eastern,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+183,Commercial Banking,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+382,Insurance,Casual,Caucasian,Women,French,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+338,Marketing,Full-time,Latin American,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+493,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+414,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+303,Commercial Banking,Full-time,Caucasian,Women,French,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+375,Insurance,Full-time,Other,Men,Other,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+5,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+374,Retail,Casual,Asian,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+97,Commercial Banking,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+216,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+39,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Irregular schedule,5 to 10 years,21 - 29
+210,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Irregular schedule,1 to 3 years,21 - 29
+380,Product and Pricing,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+142,Commercial Banking,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-07,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+136,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,60 or older
+468,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-07,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+173,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+93,Commercial Banking,Full-time,Prefer not to answer,Preferred not to answer,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+193,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+259,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+172,Insurance,Full-time,Latin American,Men,Other,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+398,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+424,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+46,Contact Center,Full-time,Latin American,Men,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+256,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+179,Mortgage Development,Full-time,Asian,Men,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+269,Mortgage Development,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+265,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+219,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+263,Insurance,Part-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+467,Mortgage Development,Full-time,Middle Eastern,Women,Other,LOC-SCU-06,Mostly on-site,Irregular schedule,1 to 3 years,30 - 39
+134,Insurance,Full-time,Aboriginal,Preferred not to answer,Other,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+138,Product and Pricing,Part-time,Caucasian,Women,English,LOC-SCU-06,Mostly remotely,Irregular schedule,3 to 5 years,30 - 39
+399,Contact Center,Full-time,Asian,Women,Other,LOC-SCU-02,Mostly on-site,Irregular schedule,1 to 3 years,21 - 29
+184,Mortgage Development,Full-time,Other,Men,Other,LOC-SCU-02,Only on-site,Irregular schedule,1 to 3 years,21 - 29
+373,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+80,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+135,Insurance,Full-time,Caucasian,Preferred not to answer,French,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+92,Retail,Part-time,Caucasian,Preferred not to answer,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+499,Product and Pricing,Full-time,Latin American,Women,French,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+99,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+223,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-07,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+485,Contact Center,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly remotely,Irregular schedule,10 years and more,60 or older
+438,Product and Pricing,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+24,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,30 - 39
+85,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Mostly on-site,Irregular schedule,3 to 5 years,21 - 29
+301,Product and Pricing,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+336,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+489,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+250,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+447,Insurance,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+64,Insurance,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+128,Marketing,Full-time,Middle Eastern,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+479,Mortgage Development,Full-time,Middle Eastern,Women,English,LOC-SCU-07,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+90,Mortgage Development,Full-time,Asian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Mostly on-site,Irregular schedule,1 to 3 years,40 - 49
+478,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+262,Retail,Full-time,Latin American,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,21 - 29
+121,Insurance,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-06,Mostly on-site,Irregular schedule,Less than 1 year,30 - 39
+154,Marketing,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,40 - 49
+410,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+235,Contact Center,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly remotely,Irregular schedule,10 years and more,60 or older
+151,Commercial Banking,Full-time,Black,Women,English,LOC-SCU-07,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+274,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+430,Contact Center,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+431,Insurance,Full-time,Aboriginal,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+270,Insurance,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+325,Insurance,Full-time,Asian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+369,Retail,Full-time,Asian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+323,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+307,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Irregular schedule,3 to 5 years,30 - 39
+55,Accounting,Full-time,Latin American,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+315,Retail,Full-time,Caucasian,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,50 - 59
+58,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+108,Insurance,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+120,Insurance,Full-time,Latin American,Women,Other,LOC-SCU-01,Mostly remotely,Irregular schedule,1 to 3 years,40 - 49
+298,Accounting,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+421,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,60 or older
+460,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+412,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+15,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Mostly on-site,Irregular schedule,1 to 3 years,40 - 49
+110,People and Culture,Full-time,Caucasian,Men,French,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+345,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+119,Retail,Full-time,Asian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+189,Insurance,Full-time,Asian,Women,English,LOC-SCU-05,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+335,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+187,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+395,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+51,Product and Pricing,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+105,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,50 - 59
+337,Retail,Full-time,Black,Women,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+480,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Irregular schedule,1 to 3 years,21 - 29
+94,Commercial Banking,Full-time,Middle Eastern,Men,French,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+211,Contact Center,Full-time,Asian,Men,Other,LOC-SCU-01,Only on-site,Irregular schedule,Less than 1 year,21 - 29
+47,Mortgage Development,Full-time,Caucasian,Men,French,LOC-SCU-02,Only on-site,Irregular schedule,Less than 1 year,30 - 39
+453,Marketing,Full-time,Middle Eastern,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+340,Mortgage Development,Full-time,Asian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+159,Product and Pricing,Full-time,Aboriginal,Men,English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+200,Mortgage Development,Full-time,Other,Men,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+60,Contact Center,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+83,Retail,Part-time,Latin American,Women,Other,LOC-SCU-06,Only on-site,Irregular schedule,1 to 3 years,40 - 49
+165,Product and Pricing,Full-time,Latin American,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+266,Product and Pricing,Full-time,Latin American,Women,English,LOC-SCU-06,Mostly remotely,Irregular schedule,1 to 3 years,60 or older
+354,Contact Center,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+43,Retail,Part-time,Aboriginal,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+247,Contact Center,Full-time,Asian,Preferred not to answer,English,LOC-SCU-06,Mostly on-site,Irregular schedule,1 to 3 years,60 or older
+40,Product and Pricing,Full-time,Asian,Men,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+409,Product and Pricing,Full-time,Aboriginal,Men,English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+67,Retail,Full-time,Aboriginal,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+38,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),10 years and more,21 - 29
+258,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-04,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+351,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+17,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+23,Marketing,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+416,Insurance,Part-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+87,Retail,Full-time,Black,Women,English,LOC-SCU-02,Mostly remotely,Irregular schedule,Less than 1 year,21 - 29
+22,Insurance,Full-time,Asian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+401,Commercial Banking,Full-time,Black,Women,English,LOC-SCU-07,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+166,Insurance,Part-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,3 to 5 years,50 - 59
+423,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+448,Retail,Full-time,Caucasian,Women,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+425,Marketing,Full-time,Prefer not to answer,Women,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+241,Insurance,Full-time,Asian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+252,Contact Center,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+116,Commercial Banking,Full-time,Middle Eastern,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+114,Commercial Banking,Full-time,Middle Eastern,Women,Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+455,Contact Center,Part-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+61,People and Culture,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Irregular schedule,1 to 3 years,40 - 49
+314,Insurance,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+310,Contact Center,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+388,Product and Pricing,Part-time,Caucasian,Women,English,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+393,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+458,Contact Center,Casual,Middle Eastern,Women,English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+494,Retail,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly on-site,Irregular schedule,Less than 1 year,50 - 59
+71,Retail,Full-time,Asian,Preferred not to answer,French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+312,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+237,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+41,Retail,Full-time,Caucasian,Women,Other,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+296,Contact Center,Full-time,Latin American,Men,English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+249,Product and Pricing,Full-time,Latin American,Women,French,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,20 or younger
+356,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+73,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Irregular schedule,1 to 3 years,40 - 49
+324,Marketing,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+405,Insurance,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+29,Commercial Banking,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Irregular schedule,3 to 5 years,30 - 39
+357,Product and Pricing,Full-time,Caucasian,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+221,Contact Center,Full-time,Aboriginal,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+435,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+251,Insurance,Part-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+443,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-02,Only on-site,Irregular schedule,1 to 3 years,30 - 39
+477,Product and Pricing,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-02,Only remotely,Irregular schedule,1 to 3 years,21 - 29
+275,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+452,People and Culture,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+126,Mortgage Development,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+204,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Irregular schedule,3 to 5 years,50 - 59
+89,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Irregular schedule,1 to 3 years,50 - 59
+364,Commercial Banking,Full-time,Middle Eastern,Women,Other,LOC-SCU-06,Only on-site,Irregular schedule,1 to 3 years,60 or older
+481,Retail,Full-time,Asian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Irregular schedule,Less than 1 year,30 - 39
+415,Product and Pricing,Full-time,Latin American,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+48,Accounting,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+319,Commercial Banking,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+32,Mortgage Development,Full-time,Aboriginal,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+164,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+77,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+454,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+440,People and Culture,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+352,Marketing,Full-time,Caucasian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+446,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+292,Contact Center,Part-time,Latin American,Men,English,LOC-SCU-02,Mostly remotely,Irregular schedule,1 to 3 years,50 - 59
+203,Marketing,Full-time,Middle Eastern,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+278,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-05,Only on-site,Irregular schedule,Less than 1 year,60 or older
+20,Insurance,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+350,Retail,Full-time,Latin American,Women,Other,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+197,Insurance,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+33,Retail,Full-time,Middle Eastern,Men,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+271,Contact Center,Full-time,Prefer not to answer,Women,French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+31,Product and Pricing,Full-time,Caucasian,Women,Other,LOC-SCU-01,Mostly remotely,Irregular schedule,1 to 3 years,40 - 49
+37,Retail,Full-time,Caucasian,Women,English,LOC-SCU-05,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+376,Mortgage Development,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+49,Contact Center,Full-time,Other,Women,English,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,1 to 3 years,50 - 59
+202,People and Culture,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+495,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,50 - 59
+417,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,1 to 3 years,40 - 49
+112,Retail,Full-time,Caucasian,Women,French,LOC-SCU-02,Only on-site,Irregular schedule,3 to 5 years,21 - 29
+248,Retail,Full-time,Black,Men,French,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+392,Commercial Banking,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-07,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+318,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-03,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+268,Insurance,Full-time,Aboriginal,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+347,Commercial Banking,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+118,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly remotely,Irregular schedule,3 to 5 years,21 - 29
+371,Insurance,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+170,Contact Center,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+226,Accounting,Full-time,Other,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+286,Mortgage Development,Full-time,Asian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+463,Insurance,Full-time,Latin American,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,21 - 29
+305,Accounting,Full-time,Latin American,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+84,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+433,Commercial Banking,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+35,Mortgage Development,Full-time,Middle Eastern,Preferred not to answer,Other,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+111,Insurance,Part-time,Middle Eastern,Women,English,LOC-SCU-07,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+72,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+471,Contact Center,Full-time,Aboriginal,Men,English,LOC-SCU-01,Mostly on-site,Irregular schedule,3 to 5 years,40 - 49
+2,Contact Center,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+483,Product and Pricing,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Mostly on-site,Irregular schedule,1 to 3 years,21 - 29
+418,Mortgage Development,Full-time,Middle Eastern,Men,Other,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+26,Retail,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,21 - 29
+434,Mortgage Development,Full-time,Other,Men,Other,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+470,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+427,Accounting,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+377,Marketing,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+224,Mortgage Development,Full-time,Prefer not to answer,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+239,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+327,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+70,Accounting,Full-time,Asian,Women,English,LOC-SCU-05,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+1,Insurance,Part-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+254,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+122,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+96,Insurance,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,50 - 59
+420,Contact Center,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+147,Contact Center,Full-time,Asian,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+484,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+370,Insurance,Full-time,Latin American,Women,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+386,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,60 or older
+360,People and Culture,Full-time,Caucasian,Men,French,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+25,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+192,Accounting,Full-time,Prefer not to answer,Women,French,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,30 - 39
+161,Mortgage Development,Full-time,Latin American,Men,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+456,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+361,Insurance,Part-time,Middle Eastern,Women,English,LOC-SCU-07,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+284,Commercial Banking,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-03,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+482,People and Culture,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly on-site,Irregular schedule,1 to 3 years,20 or younger
+330,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+53,Commercial Banking,Full-time,Caucasian,Women,French,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+233,Product and Pricing,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+413,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-07,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+182,Insurance,Part-time,Caucasian,Men,French,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+272,Insurance,Full-time,Asian,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+344,Commercial Banking,Full-time,Middle Eastern,Men,French,LOC-SCU-06,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+125,Insurance,Full-time,Other,Men,Other,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+348,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-01,Mostly on-site,Irregular schedule,5 to 10 years,60 or older
+436,Insurance,Full-time,Caucasian,Women,French,LOC-SCU-03,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+302,Retail,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-04,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+171,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,60 or older
+212,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+52,Retail,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-04,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+148,Retail,Full-time,Middle Eastern,Men,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+368,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly remotely,Irregular schedule,3 to 5 years,21 - 29
+411,Mortgage Development,Full-time,Latin American,Men,French,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+50,Commercial Banking,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+63,Insurance,Casual,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+214,Retail,Full-time,Middle Eastern,Women,Other,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+220,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+311,People and Culture,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+8,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-04,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+498,Retail,Full-time,Black,Men,French,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+313,Insurance,Casual,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+127,Marketing,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+394,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+130,Product and Pricing,Full-time,Prefer not to answer,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,40 - 49
+217,Mortgage Development,Full-time,Middle Eastern,Women,Other,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+474,Mortgage Development,Full-time,Prefer not to answer,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+379,Contact Center,Full-time,Middle Eastern,Men,Other,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+113,Commercial Banking,Full-time,Aboriginal,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+397,Contact Center,Full-time,Asian,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+228,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+188,Product and Pricing,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,21 - 29
+149,Contact Center,Full-time,Asian,Women,Other,LOC-SCU-02,Mostly on-site,Irregular schedule,1 to 3 years,21 - 29
+227,Product and Pricing,Full-time,Middle Eastern,Preferred not to answer,English,LOC-SCU-02,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+406,Retail,Full-time,Black,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+349,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-06,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+291,Retail,Full-time,Caucasian,Women,Other,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+491,Insurance,Full-time,Asian,Men,English,LOC-SCU-04,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+391,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,40 - 49
+79,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+422,Insurance,Full-time,Latin American,Men,Other,LOC-SCU-02,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+213,Insurance,Full-time,Latin American,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+167,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+363,Commercial Banking,Full-time,Aboriginal,Women,English,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+486,Contact Center,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Mostly on-site,Irregular schedule,1 to 3 years,40 - 49
+101,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+289,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Irregular schedule,5 to 10 years,21 - 29
+317,Retail,Full-time,Aboriginal,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+117,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+245,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+12,Retail,Full-time,Latin American,Men,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,21 - 29
+62,Contact Center,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,21 - 29
+240,Commercial Banking,Full-time,Caucasian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+109,People and Culture,Full-time,Other,Preferred not to answer,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,21 - 29
+358,Insurance,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+472,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+129,Contact Center,Full-time,Middle Eastern,Men,Other,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+152,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+464,Retail,Full-time,Middle Eastern,Women,Other,LOC-SCU-03,Equally on-site and remotely,Irregular schedule,3 to 5 years,30 - 39
+465,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,3 to 5 years,30 - 39
+180,Contact Center,Full-time,Caucasian,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-01,Mostly on-site,Irregular schedule,1 to 3 years,30 - 39
+297,Mortgage Development,Full-time,Caucasian,Men,French,LOC-SCU-02,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+326,Product and Pricing,Full-time,Middle Eastern,Men,Other,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+145,Retail,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+342,Retail,Part-time,Caucasian,Preferred not to answer,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+304,Insurance,Part-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+69,Commercial Banking,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+144,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-01,Mostly on-site,Irregular schedule,Less than 1 year,30 - 39
+461,Contact Center,Full-time,Asian,Men,Other,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+3,People and Culture,Full-time,Caucasian,Women,Other,LOC-SCU-04,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+442,Accounting,Full-time,Prefer not to answer,Women,French,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,Less than 1 year,30 - 39
+387,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+492,Mortgage Development,Full-time,Prefer not to answer,Men,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+91,Contact Center,Full-time,Aboriginal,Men,French,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+75,Insurance,Full-time,Asian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+104,Contact Center,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+267,Insurance,Full-time,Caucasian,Women,Other,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,30 - 39
+466,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+457,Contact Center,Full-time,Latin American,Women,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+206,Mortgage Development,Full-time,Middle Eastern,Men,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+282,Mortgage Development,Full-time,Aboriginal,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+432,Insurance,Casual,Caucasian,Men,French,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+169,People and Culture,Full-time,Middle Eastern,Women,English,LOC-SCU-07,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+408,Insurance,Full-time,Latin American,Women,English,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+98,Insurance,Full-time,Aboriginal,Men,English,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),5 to 10 years,60 or older
+34,Commercial Banking,Full-time,Latin American,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-03,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,20 or younger
+137,Insurance,Full-time,Caucasian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+281,Product and Pricing,Full-time,Caucasian,Women,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+36,Mortgage Development,Full-time,Asian,Men,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+57,Mortgage Development,Full-time,Caucasian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+285,Mortgage Development,Full-time,Middle Eastern,Preferred not to answer,Other,LOC-SCU-06,Only on-site,Irregular schedule,5 to 10 years,30 - 39
+175,Marketing,Full-time,Prefer not to answer,Women,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,20 or younger
+54,Insurance,Part-time,Middle Eastern,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+168,Mortgage Development,Full-time,Middle Eastern,Men,Other,LOC-SCU-06,Equally on-site and remotely,Irregular schedule,3 to 5 years,30 - 39
+21,Contact Center,Full-time,Prefer not to answer,Women,French,LOC-SCU-01,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+157,Insurance,Full-time,Asian,Preferred not to answer,English,LOC-SCU-01,Only on-site,Irregular schedule,3 to 5 years,50 - 59
+426,Mortgage Development,Full-time,Caucasian,Men,Other,LOC-SCU-05,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+308,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+450,Mortgage Development,Full-time,Other,Men,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+428,People and Culture,Full-time,Prefer not to answer,Women,English,LOC-SCU-07,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+66,Mortgage Development,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+106,Retail,Full-time,Caucasian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,30 - 39
+177,Accounting,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Irregular schedule,1 to 3 years,30 - 39
+257,Contact Center,Part-time,Middle Eastern,Women,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+273,Marketing,Full-time,Middle Eastern,Men,English,LOC-SCU-02,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+381,Marketing,Full-time,Asian,Men,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+115,People and Culture,Full-time,Middle Eastern,"Gender-fluid, non-binary, and/or Two-Spirit",English,LOC-SCU-06,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+27,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+293,Retail,Part-time,Aboriginal,Women,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,21 - 29
+475,Mortgage Development,Full-time,Middle Eastern,Women,English,LOC-SCU-06,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,50 - 59
+218,Insurance,Full-time,Caucasian,Women,English,LOC-SCU-07,Equally on-site and remotely,Irregular schedule,Less than 1 year,21 - 29
+277,Insurance,Full-time,Caucasian,Men,English,LOC-SCU-05,Mostly on-site,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+45,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,40 - 49
+462,Contact Center,Full-time,Caucasian,Women,English,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+234,People and Culture,Full-time,Caucasian,Women,English,LOC-SCU-01,Equally on-site and remotely,Irregular schedule,1 to 3 years,30 - 39
+316,Mortgage Development,Full-time,Middle Eastern,Women,Other,LOC-SCU-01,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+473,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-07,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,60 or older
+103,People and Culture,Full-time,Asian,Men,English,LOC-SCU-01,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+287,Retail,Full-time,Caucasian,Women,English,LOC-SCU-05,Equally on-site and remotely,Irregular schedule,3 to 5 years,50 - 59
+65,Retail,Full-time,Caucasian,Men,English,LOC-SCU-02,Equally on-site and remotely,Irregular schedule,5 to 10 years,50 - 59
+174,Marketing,Full-time,Caucasian,Women,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),3 to 5 years,40 - 49
+16,Product and Pricing,Full-time,Latin American,Women,English,LOC-SCU-06,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,60 or older
+231,Retail,Full-time,Asian,Preferred not to answer,English,LOC-SCU-01,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),Less than 1 year,30 - 39
+328,Contact Center,Full-time,Middle Eastern,Women,English,LOC-SCU-01,Only remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,30 - 39
+7,Contact Center,Part-time,Middle Eastern,Women,English,LOC-SCU-05,Mostly remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,50 - 59
+176,Mortgage Development,Full-time,Caucasian,Men,Other,LOC-SCU-05,Only on-site,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,21 - 29
+56,Contact Center,Full-time,Middle Eastern,Women,Other,LOC-SCU-02,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),1 to 3 years,40 - 49
+288,Mortgage Development,Full-time,Caucasian,Women,English,LOC-SCU-03,Equally on-site and remotely,Daytime hours (9 a.m. to 5 p.m. or similar),10 years and more,21 - 29

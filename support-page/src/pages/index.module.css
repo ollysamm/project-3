@@ -1,0 +1,35 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ .heroBanner {
+  padding: 4rem 0;
+  position: relative;
+  background-image: url("wendy_gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.heroTagline{
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+img {
+  max-height: 25vh;
+}
