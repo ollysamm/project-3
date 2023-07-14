@@ -9,6 +9,9 @@ export function LoggedInUser() {
 
   return (
     <div className="flex items-center mb-6">
+      <div>
+        {JSON.stringify(user, null, 2)}
+      </div>
       <BiUserCircle size={40} />
       <div className="ml-2">
         <div>TestUser</div>

@@ -4,17 +4,20 @@ import RootLayout from './layouts/RootLayout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './pages/login';
 import Chat from './pages/chat';
+import ProtectedRoute from './components/protectectedRoute';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/chat" element={
-          <RootLayout>
-            <Chat />
-          </RootLayout>
-        } />
+        <Route path="/chat" 
+          element={
+            <RootLayout>
+              <Chat />
+            </RootLayout>
+          }
+        />
       </Routes>
     </Router>
   );
