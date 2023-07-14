@@ -22,7 +22,7 @@ function Login() {
 
   return (
     <div className='h-screen w-screen flex items-center justify-center' style={divStyle}>
-      <div className='bg-white p-10 rounded-lg'>
+      <div className='bg-white p-8 rounded-lg'>
         <div className='flex justify-center'>
           <Logo />
         </div>
