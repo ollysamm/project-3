@@ -16,7 +16,7 @@ function Login() {
   const { loginWithRedirect } = useAuth0();
 
   const handleLogin = () => {
-    loginWithRedirect({ returnTo: '/chat' } as any);
+    loginWithRedirect();
   };
 
 
