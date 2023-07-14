@@ -1,7 +1,9 @@
+import React from "react"
 
-
-export function ChatHistory() {
+function ChatHistory() {
   return (
     <div>Chat History here</div>
   )
 }
+
+export default ChatHistory;

@@ -4,6 +4,7 @@ import RootLayout from './layouts/RootLayout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './pages/login';
 import Chat from './pages/chat';
+import ChatHistory from './pages/chatHistory';
 import ProtectedRoute from './components/protectectedRoute';
 
 function App() {
@@ -11,11 +12,24 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/chat" 
+        <Route
+          path="/chat"
           element={
-            <RootLayout>
-              <Chat />
-            </RootLayout>
+            <ProtectedRoute>
+              <RootLayout>
+                <Chat />
+              </RootLayout>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/chat-history"
+          element={
+            <ProtectedRoute>
+              <RootLayout>
+                <ChatHistory />
+              </RootLayout>
+            </ProtectedRoute>
           }
         />
       </Routes>
