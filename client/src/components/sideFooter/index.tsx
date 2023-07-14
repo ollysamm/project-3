@@ -1,4 +1,5 @@
-
+import React from "react";
+import { useAuth0 } from "@auth0/auth0-react";
 import { MdOutlineContactSupport } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { CgLogOut } from "react-icons/cg";
@@ -6,6 +7,13 @@ import { CgLogOut } from "react-icons/cg";
 
 
 export function SideFooter() {
+  const { logout } = useAuth0();
+
+  const handleLogout = () => {
+    logout();
+  };
+
+
   return (
     <div className="flex flex-col">
       <div className="mb-2">
@@ -23,10 +31,10 @@ export function SideFooter() {
       </div>
 
       <div className="mb-2">
-        <a href="" className="flex items-center cursor-pointer">
+        <button onClick={handleLogout} className="flex items-center cursor-pointer">
           <CgLogOut />
           <span className="ml-2 text-lg">Logout</span>
-        </a>
+        </button>
       </div>
     </div>
   )
