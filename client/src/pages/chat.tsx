@@ -76,7 +76,7 @@ function Chat() {
           </div>
 
           <div className="flex items-center justify-center">
-            <h4 className='text-xs'>Wendy v1 - Updated 09/06/2023</h4>
+            <h4 className='text-sm font-bold'>Wendy v1 - Updated 09/06/2023</h4>
           </div>
         </div>
       </div>
