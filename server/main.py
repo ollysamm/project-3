@@ -48,5 +48,5 @@ def ask_wendy(query: PromptQuery):
         response=agent.run(prompt)
         return response
     except Exception as e:
-        error_message = "I am unable to respond to you question at the moment, please try again later."
+        error_message = "I am unable to respond to your question at the moment, please try again later."
         return error_message
