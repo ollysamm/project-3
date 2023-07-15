@@ -62,7 +62,7 @@ function Sidebar() {
           </div>
         </div>
       ) : (
-        <button className="hamburger-icon p-2" onClick={toggleSidebar}>
+        <button className="hamburger-icon pt-2 pl-2" onClick={toggleSidebar}>
           <BiMenu size={24} />
         </button>
       )}
