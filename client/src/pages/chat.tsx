@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios, { AxiosResponse } from 'axios';
 import { BsSendFill } from "react-icons/bs";
 
+import { FiPlus } from "react-icons/fi";
+
 interface ChatMessage {
   userMessage: string;
-  response: string;
+  wendyResponse: string;
+  chatTopic: string;
 }
 
 function Chat() {
   const [userMessage, setUserMessage] = useState('');
-  const [chats, setChats] = useState<ChatMessage[]>([]);
+  const [wendyResponse, setWendyResponse] = useState<string | null>(null);
   const [isThinking, setIsThinking] = useState(false);
-  const [wendyResponse, setWendyResponse] = useState<AxiosResponse<any, any> | null>(null);
+  const [chats, setChats] = useState<ChatMessage[]>([]);
+  const [chatTopic, setChatTopic] = useState('');
+  
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -19,25 +24,39 @@ function Chat() {
 
     try {
       const response = await axios.post('http://localhost:8000/ask-wendy', { prompt: userMessage });
-      setWendyResponse(response);
+      setWendyResponse(response.data);
 
-      const newChatMessage: ChatMessage = {
-        userMessage,
-        response: response.data,
-      };
-
-      setChats([...chats, newChatMessage]);
-      setUserMessage(''); // Clear the input field after submission
     } catch (error) {
       console.log(error);
     } finally {
       setIsThinking(false);
+      //setUserMessage(''); // Clear the input field after submission
     }
   };
 
+  useEffect(() => {
+    const newChatMessage: ChatMessage = {
+      userMessage,
+      wendyResponse: wendyResponse || '',
+      chatTopic,
+    };
+    if (!chatTopic && userMessage && wendyResponse) {
+      setChatTopic(userMessage)
+    }
+    if (chatTopic && userMessage && wendyResponse) {
+      setChats(chats => (
+        [...chats, newChatMessage]
+      ))
+    } 
+  }, [wendyResponse, chatTopic])
+
+  console.log(wendyResponse, chatTopic)
+
+
+
   return (
     <div className="flex flex-col justify-between h-full overflow-auto pl-4 xl:pl-24 pr-4 xl:pr-24">
-      <div></div>
+       <div></div> {/* empty div to keep justify-between style */}
 
       <div>
         <div>
@@ -50,7 +69,7 @@ function Chat() {
               </div>
               <div className='flex justify-start'>
                 <div className='bg-hol-purple-light text-sm max-w-[85%] rounded-[0px_32px_32px_32px] mb-2 px-2 py-2'>
-                  {chat.response}
+                  {chat.wendyResponse}
                 </div>
               </div>
             </div>
