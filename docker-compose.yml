@@ -1,4 +1,4 @@
-version: '3'
+version: '3.3'
 services:
   client:
     build:
@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - '80:80'
+    container_name: client
       
   server:
     build:
@@ -13,3 +14,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - '8000:8000'
+    container_name: server.
+    env_file:
+     - ./server/.env
