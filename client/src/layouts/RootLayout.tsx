@@ -7,10 +7,10 @@ interface RootLayoutProps {
 
 function RootLayout({ children }: RootLayoutProps) {
   return (
-    <div className="flex">
-      <Sidebar />
-      <main className="flex-1 py-8 bg-hol-grey-light">{children}</main>
-    </div>
+      <main className="flex bg-hol-grey-light h-screen">
+        <Sidebar />
+        <div className="flex-1">{children}</div>
+      </main>
   );
 }
 
