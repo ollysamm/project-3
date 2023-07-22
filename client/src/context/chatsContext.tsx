@@ -7,7 +7,8 @@ interface ChatContextValue {
   setCurrentChat: React.Dispatch<React.SetStateAction<Chat>>;
   handleNewChat: Function;
   updateChat: Function;
-  changeChat: Function
+  changeChat: Function;
+  clearChat: Function;
 }
 
 export interface Message {
@@ -21,7 +22,7 @@ interface Chat {
   messages: Message[]
 }
 // Create the context object with undefined as the default value
-export const ChatContext = createContext<ChatContextValue>({chats: [], setChats: () => {}, currentChat: {chatId: new Date(), chatTopic: '', messages:[]}, setCurrentChat: () => {}, handleNewChat: () => {}, updateChat: () => {}, changeChat: () => {}});
+export const ChatContext = createContext<ChatContextValue>({chats: [], setChats: () => {}, currentChat: {chatId: new Date(), chatTopic: '', messages:[]}, setCurrentChat: () => {}, handleNewChat: () => {}, updateChat: () => {}, changeChat: () => {}, clearChat: () => {},});
 
 interface ChatProviderProps {
   children: ReactNode;
@@ -61,6 +62,13 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
     else setCurrentChat(newChat)
   } 
 
+  const clearChat = () => {
+    // Filter out the chat with the selected chatId
+    const updatedChats = chats.filter((chat) => chat.chatId !== currentChat.chatId);
+    // Update the chats state with the updated list
+    setChats(updatedChats);
+  };
+
   useEffect(() => {
     let newChatList = chats.filter(chat => {
       console.log(chat.chatId, currentChat.chatId, chat.chatId !== currentChat.chatId)
@@ -70,7 +78,7 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
   }, [currentChat])
 
   return (
-    <ChatContext.Provider value={{chats, setChats, currentChat, setCurrentChat, handleNewChat, updateChat, changeChat}}>
+    <ChatContext.Provider value={{chats, setChats, currentChat, setCurrentChat, handleNewChat, updateChat, changeChat, clearChat,}}>
       {children}
     </ChatContext.Provider>
   );
