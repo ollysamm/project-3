@@ -1,58 +1,47 @@
-import React, { useState, useEffect } from 'react';
-import axios, { AxiosResponse } from 'axios';
+import React, { useState, useEffect, useContext } from 'react';
+import axios from 'axios';
 import { BsSendFill } from "react-icons/bs";
 
-import { FiPlus } from "react-icons/fi";
+import { ChatContext, Message } from '../context/chatsContext';
 
-interface ChatMessage {
-  userMessage: string;
-  wendyResponse: string;
-  chatTopic: string;
-}
 
 function Chat() {
   const [userMessage, setUserMessage] = useState('');
   const [wendyResponse, setWendyResponse] = useState<string | null>(null);
+  const [lastResponseTime, setLastResponseTime] = useState<Date>(new Date())
   const [isThinking, setIsThinking] = useState(false);
-  const [chats, setChats] = useState<ChatMessage[]>([]);
-  const [chatTopic, setChatTopic] = useState('');
+  //const [chats, setChats] = useState<ChatMessage[]>([]);
+  //const [chatTopic, setChatTopic] = useState('');
+  const { currentChat, updateChat} = useContext(ChatContext)
   
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!userMessage) return;
     setIsThinking(true);
 
     try {
       const response = await axios.post('http://localhost:8000/ask-wendy', { prompt: userMessage });
       setWendyResponse(response.data);
-
+      setLastResponseTime(new Date())
     } catch (error) {
       console.log(error);
     } finally {
       setIsThinking(false);
-      //setUserMessage(''); // Clear the input field after submission
     }
   };
 
   useEffect(() => {
-    const newChatMessage: ChatMessage = {
+    const newChatMessage: Message = {
       userMessage,
       wendyResponse: wendyResponse || '',
-      chatTopic,
     };
-    if (!chatTopic && userMessage && wendyResponse) {
-      setChatTopic(userMessage)
-    }
-    if (chatTopic && userMessage && wendyResponse) {
-      setChats(chats => (
-        [...chats, newChatMessage]
-      ))
+    console.log("Got response")
+    if (userMessage && wendyResponse) {
+      updateChat(newChatMessage)
+      setUserMessage('')
     } 
-  }, [wendyResponse, chatTopic])
-
-  console.log(wendyResponse, chatTopic)
-
-
+  }, [lastResponseTime])
 
   return (
     <div className="flex flex-col justify-between h-full overflow-auto pl-4 xl:pl-24 pr-4 xl:pr-24">
@@ -60,7 +49,7 @@ function Chat() {
 
       <div>
         <div>
-          {chats.map((chat, index) => (
+          {currentChat.messages?.map((chat, index) => (
             <div key={index}>
               <div className='flex justify-end'>
                 <div className='bg-hol-purple-dark text-hol-grey-light text-sm  max-w-[85%] rounded-[32px_32px_0px_32px] mb-2 px-2 py-2'>
