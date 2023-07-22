@@ -38,7 +38,7 @@ export function ChatHistory() {
           {chats?.map((chat, index) => (
             <li key={index}>
               <button
-                className={`flex items-center rounded-md w-full p-2 mb-2 ${
+                className={`flex items-center rounded-md w-full p-2 mb-4 ${
                   activeChatId === chat.chatId ? "bg-hol-purple-light" : ""
                 }`}
                 onClick={() => handleTopicChange(chat.chatId)}
