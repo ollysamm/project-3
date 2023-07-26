@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://use.typekit.net/een1hso.css');
+@import url('https://use.typekit.net/ymk8vco.css');
 
 @layer utilities {
 	.scrollbar::-webkit-scrollbar {
@@ -98,4 +98,60 @@ div {
 
 .menu--close {
 	animation: fadeOut 0.2s ease-in-out;
+}
+
+h1 {
+	font-family: rooney-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-family: rooney-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+b {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 450;
+	font-style: normal;
+	font-size: large;
+	text-align: center;
+}
+
+h3 {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	font-size: small;
+	text-align: center;
+}
+
+.avatar {
+	border: 1px solid white;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+}
+
+.button-sb {
+	flex: center;
+	border-color: hol-grey-light;
+	border-radius: rounded-md; 
+	font-size: large; 
+	
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+
+input:focus {
+	background-color: #2C3B59;
 }

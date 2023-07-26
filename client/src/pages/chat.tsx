@@ -65,7 +65,7 @@ function Chat() {
           ))}
         </div>
 
-        <div className="w-full sticky bottom-0 bg-hol-grey-light pt-4 pb-4">
+        <div className="w-full sticky bottom-0 bg-adobe-navy pt-4 pb-4">
           {isThinking ? (
             <div className='mb-2'>
               <p className="animate-pulse">
@@ -77,15 +77,13 @@ function Chat() {
           )}
 
           <div className="flex items-center justify-center mb-2">
-            <form onSubmit={handleSubmit} className='flex w-full bg-hol-grey border border-hol-purple-dark rounded-md'>
-              <input type='text' placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} className='bg-hol-grey w-full text-sm text-hol-grey-light p-2 rounded-md focus:outline-none'/>
-              <button type="submit" className='text-hol-grey-light p-2 pr-4'><BsSendFill /></button>
+            <form onSubmit={handleSubmit} className='flex w-full bg-adobe-navy border border-white rounded-lg'>
+              <input type='text'  placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} className='bg-adobe-navy w-full text-sm text-white p-2 rounded-md focus:outline-none'/>
+              <button type="submit" className='text-white p-2 pr-4'><BsSendFill /></button>
             </form>
           </div>
 
-          <div className="flex items-center justify-center">
-            <h4 className='text-sm font-bold'>Wendy v1 - Updated 09/06/2023</h4>
-          </div>
+
         </div>
       </div>
 

@@ -25,14 +25,14 @@ export function ChatHistory() {
   return (
     <div>
       <button
-        className="flex items-center border border-hol-grey-light rounded-md text-lg px-3 py-2 w-full mb-4 hover:bg-green-500"
+        className="flex items-center border border-hol-grey-light rounded-md text-lg px-3 py-2 w-full mb-4 hover:bg-slate-800"
         onClick={createNewChat}
       >
         <FiPlus />
-        <span className="ml-3">New Chat</span>
+        <span className="ml-3"><h1>New Chat</h1></span>
       </button>
 
-      <div className="mb-2">History</div>
+      <div className="mb-2"><h1>History</h1></div>
       <div className="mb-4">
         <ul>
           {chats?.map((chat, index) => (
@@ -44,7 +44,7 @@ export function ChatHistory() {
                 onClick={() => handleTopicChange(chat.chatId)}
               >
                 <BsChatLeft size={20} />
-                <span className="ml-2 truncate">{chat.chatTopic || "..."}</span>
+                <span className="ml-2 truncate"><h2>{chat.chatTopic || "..."}</h2></span>
               </button>
             </li>
           ))}
@@ -54,7 +54,7 @@ export function ChatHistory() {
       <button className="flex items-center" onClick={deleteChat}>
         <div className="flex items-center hover:text-hol-red-pale">
           <RiDeleteBinLine />
-          <span className="ml-2 text-sm">Clear Chat</span>
+          <span className="ml-2"><h1>Clear Chats</h1></span>
         </div>
       </button>
     </div>

@@ -4,6 +4,7 @@ import { useAuth0, Auth0ProviderOptions } from '@auth0/auth0-react';
 import { Logo } from '../components/logo';
 import MicrosoftIcon from '../assets/icons/microsoft.png';
 import { FcGoogle } from 'react-icons/fc';
+import '../index.css'
 
 
 function Login() {
@@ -27,17 +28,13 @@ function Login() {
           <Logo />
         </div>
 
-        <div className='text-xl mb-8 font-bold'>
-          Welcome Back!
-        </div>
-
         <div>
           <button
             className='flex items-center cursor-pointer border border-hol-grey-light rounded-md p-2 pl-4 pr-8 mb-4'
             onClick={() => handleLogin()}
           >
             <FcGoogle />
-            <span className='ml-4 text-lg'>Sign in with Google</span>
+            <span className='ml-4 text-lg'><b>Sign in with Google</b></span>
           </button>
         </div>
 
@@ -47,7 +44,7 @@ function Login() {
             onClick={() => handleLogin()}
           >
             <img src={MicrosoftIcon} alt='Microsoft Icon' className='w-4 h-4' />
-            <span className='ml-4 text-lg'>Sign in with Microsoft</span>
+            <span className='ml-4 text-lg'><b>Sign in with Microsoft</b></span>
           </button>
         </div>
 
