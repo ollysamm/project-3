@@ -18,3 +18,17 @@ export function LoggedInUser() {
     </div>
   );
 }
+
+export function UserAvatar() {
+  const { user, isAuthenticated } = useAuth0();
+
+  if (!isAuthenticated || !user) {
+    return null;
+  }
+
+  return (
+    <div >
+      <img src={user.picture} alt={user.name} width={40} height={40} className="avatar"/>
+    </div>
+  );
+}

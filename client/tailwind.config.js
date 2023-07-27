@@ -94,7 +94,11 @@ module.exports = {
 					pink: '#E052B8'
 				},
 				adobe: {
-					navy: '#2C3B59'
+					navy: {
+						DEFAULT: '#2C3B59',
+						dark: '#1F2A40',
+					}, 
+					
 				},
 				ringColor: {
 					default: '#7965B2'

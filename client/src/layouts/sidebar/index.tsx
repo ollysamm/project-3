@@ -42,7 +42,7 @@ function Sidebar() {
   return (
     <div>
       {showSidebar ? (
-        <div className="flex flex-col justify-between bg-adobe-navy text-white  z-[999] w-64 max-w-64 p-3 pt-4 h-screen overflow-auto md:relative fixed">
+        <div className="flex flex-col justify-between bg-transparent text-white  z-[999] w-64 max-w-64 p-3 pt-4 h-screen overflow-auto md:relative fixed">
           <div>
             {showSidebar && windowWidth < 768 && (
               <div className="flex justify-end mb-3">

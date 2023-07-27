@@ -4,6 +4,10 @@ import { BsSendFill } from "react-icons/bs";
 
 import { ChatContext, Message } from '../context/chatsContext';
 
+import { UserAvatar } from '../components/loggedInUser';
+
+import logoImage from "../assets/img/wendy.png";
+
 
 function Chat() {
   const [userMessage, setUserMessage] = useState('');
@@ -51,21 +55,23 @@ function Chat() {
         <div>
           {currentChat.messages?.map((chat, index) => (
             <div key={index}>
-              <div className='flex justify-end'>
-                <div className='bg-hol-purple-dark text-hol-grey-light text-sm  max-w-[85%] rounded-[32px_32px_0px_32px] mb-2 px-2 py-2'>
-                  {chat.userMessage}
-                </div>
+              <div className='flex justify-end items-center'>
+                <div className="prompt-bubble">
+                  <div className='prompttext'><p>{chat.userMessage}</p></ div>
+                  </div>
+                  <UserAvatar />
               </div>
-              <div className='flex justify-start'>
-                <div className='bg-hol-purple-light text-sm max-w-[85%] rounded-[0px_32px_32px_32px] mb-2 px-2 py-2'>
-                  {chat.wendyResponse}
+              <div className='flex justify-start items-center'>
+                <img src={logoImage} alt="Logo" className="avatar" />
+              <div className="response-bubble">
+                  <div className='responsetext'><p>{chat.wendyResponse}</p></ div>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="w-full sticky bottom-0 bg-adobe-navy pt-4 pb-4">
+        <div className="w-full sticky bottom-0 bg-transparent pt-4 pb-4">
           {isThinking ? (
             <div className='mb-2'>
               <p className="animate-pulse">
@@ -77,9 +83,9 @@ function Chat() {
           )}
 
           <div className="flex items-center justify-center mb-2">
-            <form onSubmit={handleSubmit} className='flex w-full bg-adobe-navy border border-white rounded-lg'>
-              <input type='text'  placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} className='bg-adobe-navy w-full text-sm text-white p-2 rounded-md focus:outline-none'/>
-              <button type="submit" className='text-white p-2 pr-4'><BsSendFill /></button>
+            <form onSubmit={handleSubmit} className='submit flex w-full bg-adobe-navy border'>
+              <input type='text'  placeholder="Ask Wendy..." value={userMessage} onChange={(e) => setUserMessage(e.target.value)} className='bg-adobe-navy w-full text-sm text-white  focus:outline-none '/>
+              <button type="submit" className='submit text-white p-2 pr-4'><BsSendFill /></button>
             </form>
           </div>
 

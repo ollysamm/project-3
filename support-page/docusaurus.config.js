@@ -11,15 +11,17 @@ const config = {
   favicon: 'img/wendy.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ollysamm.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/project-3/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Hölmetrics x InceptionU', // Usually your GitHub org/user name.
-  projectName: 'WendyAI', // Usually your repo name.
+  organizationName: 'ollysamm', // Usually your GitHub org/user name.
+  projectName: 'project-3', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

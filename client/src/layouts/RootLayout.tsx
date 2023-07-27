@@ -7,7 +7,7 @@ interface RootLayoutProps {
 
 function RootLayout({ children }: RootLayoutProps) {
   return (
-      <main className="flex bg-adobe-navy h-screen">
+      <main className="flex chatwindow h-screen">
         <Sidebar />
         <div className="flex-1">{children}</div>
       </main>

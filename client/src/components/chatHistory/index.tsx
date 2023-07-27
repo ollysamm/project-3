@@ -25,7 +25,7 @@ export function ChatHistory() {
   return (
     <div>
       <button
-        className="flex items-center border border-hol-grey-light rounded-md text-lg px-3 py-2 w-full mb-4 hover:bg-slate-800"
+        className="flex items-center border border-hol-grey-light rounded-md text-lg px-3 py-2 w-full mb-4 hover:bg-adobe-navy"
         onClick={createNewChat}
       >
         <FiPlus />

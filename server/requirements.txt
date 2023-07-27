@@ -1,9 +1,2 @@
-fastapi
-fastapi-utils
-uvicorn
-python-dotenv
-pydantic
-openai
-langchain
-pandas
-tabulate
+gunicorn==21.2.0
+packaging==23.1

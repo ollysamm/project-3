@@ -128,6 +128,12 @@ h3 {
 	text-align: center;
 }
 
+p {
+	font-family: sofia-pro, sans-serif;
+	font-style: normal;
+	font-size: 11pt;
+}
+
 .avatar {
 	border: 1px solid white;
 	border-radius: 50%;
@@ -140,8 +146,19 @@ h3 {
 	border-color: hol-grey-light;
 	border-radius: rounded-md; 
 	font-size: large; 
-	
 }
+
+form {
+	border-radius: 0.35em 0.35em 0.35em 0.35em;
+	border-color: #BEBEBE;
+	background-color: transparent;
+}
+
+input {
+	padding: 0.75em;
+	border-radius: 0.35em 0 0 0.35em;
+	background-color: transparent;
+};
 
 input::placeholder {
     color: white;
@@ -153,5 +170,78 @@ input:focus::-webkit-input-placeholder
 }
 
 input:focus {
-	background-color: #2C3B59;
+	background-color: #1F2A40;
 }
+
+input:focus +.submit {
+	background-color: #1F2A40;
+	border-radius: 0 0.35em 0.35em 0
+}
+
+form:focus {
+	background: #1F2A40;
+} 
+
+form:hover + .plane {
+	background: #1F2A40;
+} 
+
+form:hover {
+	background-color: #1F2A40;
+}
+
+input:hover {
+	background-color: #1F2A40;
+}
+
+
+
+
+.prompt-bubble {
+	margin: 40px;
+	display: inline-block;
+	position: relative;
+	max-width: 75%;
+	height: auto;
+	background-color: #2C3B59;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+.prompttext{
+	padding: 0.75em;
+	line-height: 1.5em;
+	color: white;
+	font-weight: 350;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+  }
+
+  .response-bubble {
+	margin: 40px;
+	display: inline-block;
+	position: relative;
+	max-width: 75%;
+	height: auto;
+	background-color: #BEBEBE;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+.responsetext{
+	padding: 0.75em;
+	line-height: 1.5em;
+	color: black;
+	font-weight: 400;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+  }
+
+  input::placeholder { 
+	color: white;
+  }
+  
+.chatwindow {
+	background: rgb(31,42,64);
+background: linear-gradient(90deg, rgba(31,42,64,1) 0%, rgba(45,31,64,1) 35%);
+  }
