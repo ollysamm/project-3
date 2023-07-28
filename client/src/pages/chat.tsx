@@ -74,9 +74,9 @@ function Chat() {
         <div className="w-full sticky bottom-0 bg-transparent pt-4 pb-4">
           {isThinking ? (
             <div className='mb-2'>
-              <p className="animate-pulse">
-                <i>Thinking...</i>
-              </p>
+              <div className="animate-pulse">
+                <img src={logoImage} alt="Logo" className="avatar" />
+              </div>
             </div>
           ) : (
             ""

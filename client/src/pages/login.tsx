@@ -33,21 +33,14 @@ function Login() {
             className='flex items-center cursor-pointer border border-hol-grey-light rounded-md p-2 pl-4 pr-8 mb-4'
             onClick={() => handleLogin()}
           >
-            <FcGoogle />
-            <span className='ml-4 text-lg'><b>Sign in with Google</b></span>
+            <div>
+              <span className='ml-4 text-lg'>
+                <b>Sign in with SSO</b>            
+              </span>
+            </div>
+
           </button>
         </div>
-
-        <div>
-          <button
-            className='flex items-center cursor-pointer border border-hol-grey-light rounded-md p-2 pl-4 pr-4'
-            onClick={() => handleLogin()}
-          >
-            <img src={MicrosoftIcon} alt='Microsoft Icon' className='w-4 h-4' />
-            <span className='ml-4 text-lg'><b>Sign in with Microsoft</b></span>
-          </button>
-        </div>
-
       </div>
     </div>
   );

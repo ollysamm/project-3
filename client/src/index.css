@@ -245,3 +245,11 @@ input:hover {
 	background: rgb(31,42,64);
 background: linear-gradient(90deg, rgba(31,42,64,1) 0%, rgba(45,31,64,1) 35%);
   }
+
+.truncate {
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}

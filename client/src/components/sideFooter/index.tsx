@@ -17,7 +17,7 @@ export function SideFooter() {
   return (
     <div className="flex flex-col">
       <div className="mb-2">
-        <a href="" className="flex items-center cursor-pointer">
+        <a href="http://support.wendyai.ollysamm.com" target="_blank" className="flex items-center cursor-pointer">
           <MdOutlineContactSupport />
           <span className="ml-2 text-lg"><h2>Support</h2></span>
         </a>

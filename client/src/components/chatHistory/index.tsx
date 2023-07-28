@@ -44,7 +44,7 @@ export function ChatHistory() {
                 onClick={() => handleTopicChange(chat.chatId)}
               >
                 <BsChatLeft size={20} />
-                <span className="ml-2 truncate"><h2>{chat.chatTopic || "..."}</h2></span>
+                <span className="ml-2"><h2 className="truncate">{chat.chatTopic || " "}</h2></span>
               </button>
             </li>
           ))}
