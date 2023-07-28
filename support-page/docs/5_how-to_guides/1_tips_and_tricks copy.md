@@ -16,7 +16,7 @@ sidebar_position: 1
 - You can log in to WendyAI using one of the supported single sign-on methods: Microsoft 365, Google Workspace, or Okta.
 - If you face issues with authentication or incorrect login credentials, ensure that you are using the correct account credentials for the supported single sign-on method. If the problem persists, seek assistance from the service provider.
 
-## Staying Within Scope:
+## Staying Within Scope
 
 ### How can you ensure your questions are relevant to WendyAI's expertise?
 - To ensure your questions are relevant to WendyAI's expertise, focus on the topics mentioned in the content and avoid asking questions outside its scope.
