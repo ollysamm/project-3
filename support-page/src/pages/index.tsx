@@ -14,9 +14,11 @@ function HomepageHeader() {
       <div className="container">
         <h1 className={clsx('hero__title', styles.heroTagline)}>{siteConfig.tagline}</h1>
         <div className={styles.buttons}>
-          <p>
+          <a
+            className="button button--secondary button--lg"
+            href="wendyai.ollysamm.com">
             Chat with Wendy 🤖
-          </p>
+          </a>
         </div>
       </div>
     </header>

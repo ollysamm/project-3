@@ -8,7 +8,7 @@ sidebar_position: 7
 
 Understand that while WendyAI strives to maintain privacy and confidentiality, conversations with the AI model may be processed and stored for improvement purposes. Avoid sharing sensitive personal information during the conversation.Do note that all company data is anonymized, and company and employee names are not given to OpenAI. 
 
-## Information Accuracy:
+## Information Accuracy
 
 WendyAI aims to provide accurate and up-to-date information, but there may be instances where the responses are based on outdated or incomplete knowledge. Always verify critical information.
 

@@ -79,9 +79,9 @@ const config = {
             position: 'right',
           },
           {
-            type: 'html',
+            href: 'http://wendyai.ollysamm.com/',
+            label: 'Chat with Wendy',
             position: 'right',
-            value: '<button>Login</button>',
           },
         ],
       },
