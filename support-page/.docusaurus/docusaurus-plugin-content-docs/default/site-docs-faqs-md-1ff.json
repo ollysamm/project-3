@@ -1,0 +1,22 @@
+{
+  "unversionedId": "faqs",
+  "id": "faqs",
+  "title": "Getting Started",
+  "description": "Let's discover WendyAI in less than 5 minutes.",
+  "source": "@site/docs/faqs.md",
+  "sourceDirName": ".",
+  "slug": "/faqs",
+  "permalink": "/docs/faqs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  }
+}

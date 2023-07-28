@@ -1,0 +1,22 @@
+{
+  "unversionedId": "tips-and-tricks/translate-your-site",
+  "id": "tips-and-tricks/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/tips-and-tricks/translate-your-site.md",
+  "sourceDirName": "tips-and-tricks",
+  "slug": "/tips-and-tricks/translate-your-site",
+  "permalink": "/docs/tips-and-tricks/translate-your-site",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tips and Tricks",
+    "permalink": "/docs/category/tips-and-tricks"
+  }
+}

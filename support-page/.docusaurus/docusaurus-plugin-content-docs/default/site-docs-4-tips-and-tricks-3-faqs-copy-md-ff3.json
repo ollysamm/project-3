@@ -1,0 +1,22 @@
+{
+  "unversionedId": "tips_and_tricks/faqs copy",
+  "id": "tips_and_tricks/faqs copy",
+  "title": "FAQs",
+  "description": "Coming soon.",
+  "source": "@site/docs/4_tips_and_tricks/3_faqs copy.md",
+  "sourceDirName": "4_tips_and_tricks",
+  "slug": "/tips_and_tricks/faqs copy",
+  "permalink": "/docs/tips_and_tricks/faqs copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tips and Tricks",
+    "permalink": "/docs/category/tips-and-tricks"
+  }
+}

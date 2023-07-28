@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tips_and_tricks/tips_and_tricks",
+  "id": "tips_and_tricks/tips_and_tricks",
+  "title": "Tips and Tricks",
+  "description": "- Be Patient and Observe",
+  "source": "@site/docs/4_tips_and_tricks/1_tips_and_tricks.md",
+  "sourceDirName": "4_tips_and_tricks",
+  "slug": "/tips_and_tricks/tips_and_tricks",
+  "permalink": "/project-3/docs/tips_and_tricks/tips_and_tricks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tips and Tricks",
+    "permalink": "/project-3/docs/category/tips-and-tricks"
+  },
+  "next": {
+    "title": "How-to Guides",
+    "permalink": "/project-3/docs/category/how-to-guides"
+  }
+}

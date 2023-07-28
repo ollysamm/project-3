@@ -1,0 +1,26 @@
+{
+  "unversionedId": "customization",
+  "id": "customization",
+  "title": "Customization",
+  "description": "- Currently, WendyAI does not offer customization options for clients.",
+  "source": "@site/docs/6_customization.md",
+  "sourceDirName": ".",
+  "slug": "/customization",
+  "permalink": "/project-3/docs/customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How-to Guides",
+    "permalink": "/project-3/docs/how-to_guides/tips_and_tricks copy"
+  },
+  "next": {
+    "title": "Terms and Conditions",
+    "permalink": "/project-3/docs/terms"
+  }
+}

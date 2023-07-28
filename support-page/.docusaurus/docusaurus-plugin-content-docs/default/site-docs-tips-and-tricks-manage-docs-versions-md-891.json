@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tips-and-tricks/manage-docs-versions",
+  "id": "tips-and-tricks/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/tips-and-tricks/manage-docs-versions.md",
+  "sourceDirName": "tips-and-tricks",
+  "slug": "/tips-and-tricks/manage-docs-versions",
+  "permalink": "/docs/tips-and-tricks/manage-docs-versions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tips and Tricks",
+    "permalink": "/docs/category/tips-and-tricks"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/tips-and-tricks/translate-your-site"
+  }
+}

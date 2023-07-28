@@ -1,0 +1,26 @@
+{
+  "unversionedId": "faqs",
+  "id": "faqs",
+  "title": "FAQs",
+  "description": "Empowering WendyAI Experience: Frequently Asked Questions",
+  "source": "@site/docs/3_faqs.md",
+  "sourceDirName": ".",
+  "slug": "/faqs",
+  "permalink": "/project-3/docs/faqs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/project-3/docs/troubleshooting"
+  },
+  "next": {
+    "title": "Tips and Tricks",
+    "permalink": "/project-3/docs/category/tips-and-tricks"
+  }
+}

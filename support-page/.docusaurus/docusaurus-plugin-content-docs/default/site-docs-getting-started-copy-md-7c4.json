@@ -1,0 +1,26 @@
+{
+  "unversionedId": "getting_started copy",
+  "id": "getting_started copy",
+  "title": "Getting Started",
+  "description": "Let's discover WendyAI in less than 5 minutes.",
+  "source": "@site/docs/getting_started copy.md",
+  "sourceDirName": ".",
+  "slug": "/getting_started copy",
+  "permalink": "/docs/getting_started copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

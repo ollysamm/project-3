@@ -1,0 +1,15 @@
+{
+  "title": "Tips and",
+  "slug": "/category/tips-and",
+  "permalink": "/docs/category/tips-and",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/faqs"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/docs/tips-and-tricks/manage-docs-versions"
+    }
+  }
+}

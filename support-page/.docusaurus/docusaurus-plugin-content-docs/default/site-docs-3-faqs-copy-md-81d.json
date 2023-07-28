@@ -1,0 +1,22 @@
+{
+  "unversionedId": "faqs copy",
+  "id": "faqs copy",
+  "title": "Customization",
+  "description": "Coming soon.",
+  "source": "@site/docs/3_faqs copy.md",
+  "sourceDirName": ".",
+  "slug": "/faqs copy",
+  "permalink": "/docs/faqs copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How-to Guides",
+    "permalink": "/docs/how-to_guides/tips_and_tricks copy"
+  }
+}
